@@ -76,7 +76,7 @@ It uses the **AXI (Advanced eXtensible Interface)** protocol from the ARM AMBA s
 
 The RTL used in this project was **sourced from a Team RTL repository** and implements a complete AXI-compliant DMA controller, including AXI master/slave channel logic, write/read address channels, data buffering FIFOs, and address generation units:
 
-![AXI DMA Block Diagram](figs/axi_dma_block.jpeg)
+![AXI DMA Block Diagram](figs/axidma.png)
 *AXI DMA controller block diagram — AXI slave configuration interface, central DMA control engine, write path (AW/W/B channels with FIFOs), read path (AR/R channels with FIFOs), and connections to system memory and peripheral targets.*
 
 ### Physical Design (RTL-to-GDSII)
@@ -90,7 +90,7 @@ The RTL used in this project was **sourced from a Team RTL repository** and impl
 - **Routing** — interconnecting placed cells across metal layers while satisfying DRC rules.
 - **Sign-off** — final timing, power, and physical rule (LVS/DRC) verification.
 
-![RTL-to-GDSII Flow](figs/rtl_gdsii_flow.jpeg)
+![RTL-to-GDSII Flow](figs/rtlgdsii.jpg)
 *Complete RTL-to-GDSII physical design flow adopted for the AXI DMA controller, showing tool names, key metrics, and intermediate output files at each stage.*
 
 ---
