@@ -1,3 +1,4 @@
+
 # AXI DMA — RTL-to-GDSII Physical Design (45nm)
 
 A complete **RTL-to-GDSII physical design flow** for an AXI-compliant Direct Memory Access (DMA) controller, implemented on a **45nm technology node** using the **Cadence digital design suite** (Genus, Innovus, Tempus). The RTL for this project was sourced from an open **Team RTL repository** and carried through synthesis, floorplanning, power planning, placement, clock tree synthesis, routing, physical verification, and signoff-level static timing analysis to produce a clean, tapeout-ready GDSII layout.
